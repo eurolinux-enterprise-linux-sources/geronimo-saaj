@@ -3,7 +3,7 @@
 
 Name:             geronimo-saaj
 Version:          1.1
-Release:          13%{?dist}
+Release:          14%{?dist}
 Summary:          Java EE: SOAP with Attachments API Package v1.3
 Group:            Development/Libraries
 License:          ASL 2.0 and W3C
@@ -60,6 +60,9 @@ sed -i 's/\r//' LICENSE NOTICE
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1-14
+- Mass rebuild 2013-12-27
+
 * Fri Aug 23 2013 Michal Srb <msrb@redhat.com> - 1.1-13
 - Migrate away from mvn-rpmbuild (Resolves: #997499)
 
